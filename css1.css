@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@keyframes example1 {
+	0%{background-color:red;left:0px;top:0px}
+	25%{background-color:yellow;left:200px;top:0px}
+	50%{background-color:blue;left:200px;top:200px}
+	75%{background-color:green; left:0px;top:200px}
+	100%{background-color:green; left:0px;top:0px}
+	
+}
+
+@keyframes example2 {
+	0%{background-color:red;right:0px;down:0px}
+	25%{background-color:yellow;right:200px;down:0px}
+	50%{background-color:blue;right:200px;down:200px}
+	75%{background-color:green; right:0px;down:200px}
+	100%{background-color:green; right:0px;down:0px}
+	
+}
+
+.m1 { width:100px;
+height:100px;
+background-color:red;
+position:absolute ;
+animation-name: example1;
+animation-duration:4s;
+}
+.m2 { width:100px;
+    height:100px;
+    background-color:rgb(17, 0, 255);
+    position: relative;
+    animation-name: example2;
+    animation-duration:4s;
+}
